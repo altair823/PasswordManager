@@ -99,9 +99,3 @@ class Crypto:
         if siteName in self.PWs:
             self.PWs.pop(siteName)
 
-
-if __name__ == '__main__':
-    c = Crypto()
-    id = 'altiar82342524259999940'
-    c.makePW('쿠팡', id)
-    print(c.decrypt('쿠팡', id))
